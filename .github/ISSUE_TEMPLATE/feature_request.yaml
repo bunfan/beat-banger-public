@@ -1,0 +1,36 @@
+name: Feature Request
+description: Suggest a Feature or Enhancement
+title: "Feature: "
+labels: ["enhancement"]
+# assignees:
+#   - komdog
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Feature Request form.
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Tag
+      description: This is how we will contact you if we need more information.
+      placeholder: ex. @yourname
+    validations:
+      required: false
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature you would like
+      description: Write a clear description of the feature you are suggesting.
+      placeholder: Make the boobs bigger!
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature request here.
+      placeholder: Context goes here!
+    validations:
+      required: true
+
