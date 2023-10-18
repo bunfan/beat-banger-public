@@ -32,5 +32,5 @@ body:
       description: Add any other context about the feature request here.
       placeholder: Context goes here!
     validations:
-      required: true
+      required: false
 
