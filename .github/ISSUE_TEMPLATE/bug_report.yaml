@@ -31,9 +31,9 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 3.1.3 (Beta)
-        - 3.1.4 (Beta)
         - 3.1.5 (Beta)
+        - 3.1.4 (Beta)
+        - 3.1.3 (Beta)
       default: 0
     validations:
       required: true
