@@ -26,6 +26,19 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      description: What OS are you using?
+      options:
+        - Windows
+        - Linux
+        - MacOS
+        - Steam Deck (Linux)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
     id: version
     attributes:
       label: Version
