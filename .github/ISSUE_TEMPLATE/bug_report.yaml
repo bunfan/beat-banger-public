@@ -7,10 +7,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        - When reporting bugs, you'll make our life simpler (and the fix will come sooner) if you follow the guidelines in this template.
+        - When reporting bugs, you'll simplify our life (and the fix will come sooner) if you follow the guidelines in this template.
         - Write a descriptive issue title above.
-        - The golden rule is to always open one issue for one bug. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
-        - Search open and closed issues to ensure it has not already been reported. If you don't find a relevant match or if you're unsure, don't hesitate to open a new issue.
+        - The golden rule is always to open one issue for one bug. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
+        - Search open and closed issues to ensure it has not already been reported. If you don't find a relevant match or are unsure, don't hesitate to open a new issue.
   - type: input
     id: contact
     attributes:
@@ -23,8 +23,10 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also, what did you expect to happen?
+      label: Issue Description
+      description: |
+        Describe your issue briefly. What doesn't work, and how do you expect it to work instead?
+        You can include images or videos with drag and drop, and format code blocks or logs with `\`\`\`` tags.
       placeholder: Tell us what you see!
     validations:
       required: true
