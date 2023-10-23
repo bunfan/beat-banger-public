@@ -26,7 +26,7 @@ body:
       label: Issue Description
       description: |
         Describe your issue briefly. What doesn't work, and how do you expect it to work instead?
-        You can include images or videos with drag and drop, and format code blocks or logs with `\`\`\`` tags.
+        You can include images or videos with drag and drop.
       placeholder: Tell us what you see!
     validations:
       required: true
