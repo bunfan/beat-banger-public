@@ -21,7 +21,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: issue_desc
     attributes:
       label: Issue Description
       description: |
