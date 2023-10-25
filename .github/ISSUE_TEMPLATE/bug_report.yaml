@@ -49,8 +49,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 3.22 (Secret)
-        - 3.21 (Secret)
+        - 3.3
       default: 0
     validations:
       required: true
