@@ -49,7 +49,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 3.3
+        - 3.3x (Steam)
+        - 3.3x (Patreon)
       default: 0
     validations:
       required: true
