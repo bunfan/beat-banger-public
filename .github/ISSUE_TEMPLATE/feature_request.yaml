@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest a Feature or Enhancement
-title: "Feature: "
+title: ""
 labels: ["enhancement"]
 # assignees:
 #   - komdog
