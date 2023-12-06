@@ -51,6 +51,7 @@ body:
       options:
         - 3.34 (Steam)
         - 3.33 (Patreon)
+        - 3.31 (Steam)
       default: 0
     validations:
       required: true
