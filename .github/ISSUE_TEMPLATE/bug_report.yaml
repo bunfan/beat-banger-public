@@ -49,9 +49,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 3.34 dev1 (Steam)
-        - 3.33 (Patreon)
-        - 3.31 (Steam)
+        - 3.452 (Steam)
       default: 0
     validations:
       required: true
