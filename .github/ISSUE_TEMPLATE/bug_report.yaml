@@ -49,7 +49,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 3.452 (Steam)
+        - 3.455 (Steam)
       default: 0
     validations:
       required: true
