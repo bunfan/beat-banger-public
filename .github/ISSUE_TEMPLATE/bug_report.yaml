@@ -62,7 +62,7 @@ body:
       placeholder: ex. No Fail - ACTIVE
     validations:
       required: false
-    - type: input
+  - type: input
     id: level
     attributes:
       label: What level or section is the scene present.
