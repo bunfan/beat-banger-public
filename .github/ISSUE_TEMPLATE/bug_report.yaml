@@ -53,6 +53,24 @@ body:
       default: 0
     validations:
       required: true
+  - type: input
+    id: modifier
+    attributes:
+      label: Modifiers Enabled?
+      description: |
+        This will allow us to understand the source of the issue a little better.
+      placeholder: ex. No Fail - ACTIVE
+    validations:
+      required: false
+  - type: input
+    id: level
+    attributes:
+      label: What level or section is the scene present.
+      description: |
+        Let us know if the issue is specific to a certain scene or act during gameplay
+      placeholder: ex. Present in Cathy gameplay only
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
